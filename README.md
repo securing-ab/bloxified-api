@@ -2,7 +2,7 @@
 
 **This is the Bloxifed API package which will allow you to contact with the Bloxified API.** 
 
-**NB:** *This package only interacts with the API V1 until Bloxified has made and stabalized API V2.*
+**NB:** *The stable branch of this package only interacts with the V1 API until Bloxified has rolled out the V2 API to the stable branch.*
 
 # Installation Process
 
