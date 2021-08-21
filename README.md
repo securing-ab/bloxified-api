@@ -1,4 +1,4 @@
-# Bloxified
+# Bloxified API
 
 ## **This is the package which allows you to contact the Bloxified API for reasons like Social Integrations, or a simple Discord bot.** 
 
