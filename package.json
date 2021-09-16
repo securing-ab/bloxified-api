@@ -1,19 +1,36 @@
 {
-  "name": "bloxified",
+  "name": "server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Bloxified/bloxified.git"
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "~1.3.3",
+    "cors": "^2.8.5",
+    "debug": "^4.1.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fluent-ffmpeg": "^2.1.0",
+    "fs-extra": "^2.1.1",
+    "hbs": "^4.1.1",
+    "less-middleware": "^3.1.0",
+    "lyrics-finder": "^21.7.0",
+    "mime": "^1.3.4",
+    "morgan": "^1.9.1",
+    "sanitize-filename": "^1.6.3",
+    "serve-favicon": "^2.5.0",
+    "spotify-web-api-node": "^5.0.2",
+    "stream-buffers": "^3.0.1",
+    "uuid": "^8.3.2",
+    "ytdl-core": "^3.1.2"
   },
-  "author": "Bloxified",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Bloxified/bloxified/issues"
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   },
-  "homepage": "https://github.com/Bloxified/bloxified/README.md"
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
