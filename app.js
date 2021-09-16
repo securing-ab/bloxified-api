@@ -4,7 +4,7 @@ const cors = require("cors")
 const bodyParser = require("body-parser")
 const lyricsFinder = require("lyrics-finder")
 const SpotifyWebApi = require("spotify-web-api-node")
-const schemas = require("../schemas")
+const schemas = require("./schemas")
 const uuid = require("uuid")
 
 const app = express()
