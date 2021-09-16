@@ -73,4 +73,4 @@ app.get("/feed/:id", async (req, res) => {
   res.json({ lyrics })
 })
 
-app.listen(PROCESS.ENV.PORT || 5000)
+app.listen(process.env.PORT || 5000)
