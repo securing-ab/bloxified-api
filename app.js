@@ -73,4 +73,9 @@ app.get("/feed/:id", async (req, res) => {
   res.json({ lyrics })
 })
 
+app.get("/", function (req, res) {
+  res.status("200").send();
+});
+ 
+
 app.listen(process.env.PORT || 3000)
